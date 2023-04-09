@@ -1,6 +1,9 @@
 import './UseState.css';
+import {useState} from 'react';
 
 const UseState = () => {
+
+  const [theme, setTheme] = useState('light')
   return (
     <div className="state">
       <h1>UseState Component</h1>
